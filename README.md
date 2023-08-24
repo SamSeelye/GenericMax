@@ -1,0 +1,3 @@
+# GenericMax
+Samantha Seelye, Software Development I CEN-3024C-14835
+The "GenericMax" project defines a Java class that contains a generic method to find the maximum element in an array. It employs Java generics and the Comparable interface, enabling the method to work with various data types. The project's primary method, "max," iterates through an array, comparing elements using their natural ordering, and returns the maximum element found. The main function demonstrates the method's usage with arrays of strings, integers, and doubles. Expected outputs are the maximum elements from each array. This project highlights the flexibility of generics and the importance of interfaces in implementing reusable and type-safe code.
