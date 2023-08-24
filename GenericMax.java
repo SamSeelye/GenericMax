@@ -1,8 +1,5 @@
-package cop2805;
-
 public class GenericMax {
 
-		// Create max function
 	    public static <E extends Comparable<E>> E max(E[] list) {
 	        E maxElement = list[0];
 
@@ -17,12 +14,10 @@ public class GenericMax {
 	    }
 
 	    public static void main(String[] args) {
-	        // Create Arrays of Varying Data Types
 	        String[] colors = {"Red", "Green", "Blue"};
 	        Integer[] numbers = {1, 2, 3};
 	        Double[] circleRadius = {3.0, 5.9, 2.9};
 
-	        // Call max function
 	        System.out.println("Colors: " + max(colors));
 	        System.out.println("Numbers: " + max(numbers));
 	        System.out.println("Circle Radius: " + max(circleRadius));
